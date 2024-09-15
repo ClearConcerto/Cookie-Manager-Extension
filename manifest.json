@@ -8,6 +8,7 @@
     "storage",
     "tabs",
     "<all_urls>",
+    "notifications",    
     "contextMenus"
  ],
  "background": {
@@ -28,5 +29,3 @@
     "128": "icons/icon.png"
  }
 }
-
-
