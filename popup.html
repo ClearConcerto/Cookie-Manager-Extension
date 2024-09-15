@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cookie Manager</title>
+ <style>
+    body {
+      width:200px;
+      padding:10px;
+    }
+    input {
+      width:100%;
+      margin-bottom:10px;
+    }
+    button {
+      width:100%;
+      margin-bottom:10px;
+    }
+    select {
+      width:100%;
+      margin-bottom:10px;
+    }
+ </style>
+</head>
+<body>
+ <h3>Cookie Manager</h3>
+ <input type="text" id="whitelistInput" placeholder="Enter domain (e.g., google.com)">
+ <button id="addWhitelist">Add to Whitelist</button>
+ <select id="whitelistSelect"></select>
+ <button id="removeWhitelist">Remove from Whitelist</button>
+ <button id="deleteCookies">Delete Non-Whitelist Cookies</button>
+ <label>
+    <input type="checkbox" id="autoDelete">
+    Enable Auto Delete
+ </label>
+ <script src="popup.js"></script>
+</body>
+</html>
